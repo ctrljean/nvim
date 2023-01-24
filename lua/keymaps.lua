@@ -12,3 +12,8 @@ map('i', '<C-h>', '<left>', default_opts)
 map('i', '<C-j>', '<down>', default_opts)
 map('i', '<C-k>', '<up>', default_opts)
 map('i', '<C-l>', '<right>', default_opts)
+
+-- configuración acción de abrir nerdTree
+map("n", "<F9>", ":NvimTreeOpen<CR>", {noremap=true})
+
+

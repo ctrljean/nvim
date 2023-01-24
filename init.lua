@@ -2,4 +2,7 @@
 require('settings')
 require('keymaps')
 
--- Pluggins
+-- Plugins
+require('plugins/packer')
+require('plugins/ayu')
+require('plugins/nvim-tree')
