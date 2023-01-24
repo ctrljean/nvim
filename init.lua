@@ -4,5 +4,10 @@ require('keymaps')
 
 -- Plugins
 require('plugins/packer')
-require('plugins/ayu')
+--require('plugins/ayu')
+require('plugins/onedark')
 require('plugins/nvim-tree')
+require('plugins/lualine')
+require('plugins/telescope')
+require('plugins/coc')
+require('plugins/treesitter')
