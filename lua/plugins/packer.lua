@@ -40,5 +40,13 @@ return require('packer').startup(function(use)
 			ts_update()
 		end,
 	}
+	--indent-blankline
+	use "lukas-reineke/indent-blankline.nvim"
+	-- gitsigns
+	use {
+		'lewis6991/gitsigns.nvim',
+	}
+	--floaterm
+	use 'voldikss/vim-floaterm'
 end)
 

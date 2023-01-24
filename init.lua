@@ -11,3 +11,7 @@ require('plugins/lualine')
 require('plugins/telescope')
 require('plugins/coc')
 require('plugins/treesitter')
+require('plugins/indent-blankline')
+require('plugins/gitsigns')
+require('plugins/floaterm')
+

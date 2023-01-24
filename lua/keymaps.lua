@@ -14,6 +14,11 @@ map('i', '<C-k>', '<up>', default_opts)
 map('i', '<C-l>', '<right>', default_opts)
 
 -- configuración acción de abrir nerdTree
-map("n", "<leader>w", ":NvimTreeToggle<CR>", {noremap=true}) -- Alterna entre cierre y apertura
-map("n", "<leader>f", ":NvimTreeFindFile<CR>", {noremap=true}) -- Buscar archivos
-map("n", "<leader>t", ":NvimTreeFindFileToggle<CR>", {noremap=true}) -- Abre la ubicación del archivo 
+map("n", "<leader>q", ":NvimTreeToggle<CR>", {noremap=true}) -- Alterna entre cierre y apertura
+map("n", "<leader>w", ":NvimTreeFindFile<CR>", {noremap=true}) -- Buscar archivos
+map("n", "<leader>e", ":NvimTreeFindFileToggle<CR>", {noremap=true}) -- Abre la ubicación del archivo 
+
+-- configuración acciones de floaterm
+--map("n", "<F3>", ":FloatermToggle<CR>", {noremap=false}) -- Abre la ubicación del archivo 
+--map("n", "<F12>", ":FloatermHide<CR>", {noremap=true}) -- Abre la ubicación del archivo 
+
