@@ -6,8 +6,13 @@ local g = vim.g
 local opt = vim.opt
 
 -- General
-g.mapleader = " "
+g.mapleader = " " -- tecla leader por default
 
 --UI
-opt.number = true
-opt.relativenumber = true
+opt.number = true -- numeros de línea de código
+opt.relativenumber = true -- números relativos
+vim.wo.wrap = false -- evitar que el código salte a una nueva línea
+vim.cmd[[
+	syntax enable
+	nnoremap <leader>/ :nohlsearch<cr>
+]]
