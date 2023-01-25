@@ -48,5 +48,7 @@ return require('packer').startup(function(use)
 	}
 	--floaterm
 	use 'voldikss/vim-floaterm'
+	--bufferline
+	use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 end)
 
