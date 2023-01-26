@@ -54,4 +54,6 @@ return require('packer').startup(function(use)
 	use {
 		"windwp/nvim-autopairs",
 	}
+	--kommentary
+	use 'b3nj5m1n/kommentary'
 end)
