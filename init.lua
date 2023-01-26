@@ -15,4 +15,4 @@ require('plugins/indent-blankline')
 require('plugins/gitsigns')
 require('plugins/floaterm')
 require('plugins/bufferline')
-
+require('plugins/autopairs')

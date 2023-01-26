@@ -50,5 +50,8 @@ return require('packer').startup(function(use)
 	use 'voldikss/vim-floaterm'
 	--bufferline
 	use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+	--nvim-autopairs
+	use {
+		"windwp/nvim-autopairs",
+	}
 end)
-

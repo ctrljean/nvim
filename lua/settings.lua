@@ -12,7 +12,6 @@ g.mapleader = " " -- tecla leader por default
 opt.number = true -- numeros de línea de código
 opt.relativenumber = true -- números relativos
 vim.wo.wrap = false -- evitar que el código salte a una nueva línea
-vim.cmd[[
-	syntax enable
-	nnoremap <leader>/ :nohlsearch<cr>
-]]
+opt.hlsearch = false -- evitar que se haga un resaltado en las busquedas 
+opt.tabstop = 2 -- cantidad de tabs que doy o salto 2 espacios
+opt.shiftwidth = 2 -- este este el espacio que utiliza nvim para identar una línea
