@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/ctrljean/.local/share/nvim/site/pack/packer/start/neovim-ayu",
     url = "https://github.com/Shatur/neovim-ayu"
   },
+  ["nvim-autopairs"] = {
+    loaded = true,
+    path = "/home/ctrljean/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    url = "https://github.com/windwp/nvim-autopairs"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/ctrljean/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
