@@ -15,4 +15,4 @@ vim.wo.wrap = false -- evitar que el código salte a una nueva línea
 opt.hlsearch = false -- evitar que se haga un resaltado en las busquedas 
 opt.tabstop = 2 -- cantidad de tabs que doy o salto 2 espacios
 opt.shiftwidth = 2 -- este este el espacio que utiliza nvim para identar una línea
-opt.encoding="utf-8"
+opt.encoding="utf-8" -- esto establece la codigicación de los carácteres a UTF-8
