@@ -8,7 +8,7 @@ local opt = vim.opt
 -- General
 g.mapleader = " " -- tecla leader por default
 
---UI
+	--UI
 opt.number = true -- numeros de línea de código
 opt.relativenumber = true -- números relativos
 vim.wo.wrap = false -- evitar que el código salte a una nueva línea
