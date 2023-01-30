@@ -1,5 +1,6 @@
 {
   "snippets.ultisnips.pythonPrompt": false,
   "coc.preferences.formatOnSave": true,
-  "tsserver.implicitProjectConfig.experimentalDecorators": true
+  "tsserver.implicitProjectConfig.experimentalDecorators": true,
+  "angular.enable-strict-mode-prompt": false
 }
