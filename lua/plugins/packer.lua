@@ -56,4 +56,11 @@ return require('packer').startup(function(use)
 	}
 	--kommentary
 	use 'b3nj5m1n/kommentary'
+	--harpon
+	use {
+		'ThePrimeagen/harpoon',
+		requires = {
+			'nvim-lua/plenary.nvim'
+		}
+	}
 end)
