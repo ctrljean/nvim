@@ -13,12 +13,6 @@ map('i', '<C-j>', '<down>', default_opts)
 map('i', '<C-k>', '<up>', default_opts)
 map('i', '<C-l>', '<right>', default_opts)
 
-vim.cmd[[
-	set clipboard=unnamed
-	vmap <C-c> "+y
-	vmap <C-v> "+p
-]] 
-
 -- configuración acción de abrir nerdTree
 map("n", "<leader>q", ":NvimTreeToggle<CR>", {noremap=true}) -- Alterna entre cierre y apertura
 map("n", "<leader>w", ":NvimTreeFindFile<CR>", {noremap=true}) -- Buscar archivos
