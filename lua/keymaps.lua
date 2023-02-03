@@ -12,6 +12,8 @@ map('i', '<C-h>', '<left>', default_opts)
 map('i', '<C-j>', '<down>', default_opts)
 map('i', '<C-k>', '<up>', default_opts)
 map('i', '<C-l>', '<right>', default_opts)
+map('v', '<C-c>', '"+y', default_opts) -- Copiar al portapapeles del sistema
+map('v', '<C-p>', '"+p', default_opts) -- Pegar desde portapapeles del sistema
 
 -- configuración acción de abrir nerdTree
 map("n", "<leader>q", ":NvimTreeToggle<CR>", {noremap=true}) -- Alterna entre cierre y apertura
