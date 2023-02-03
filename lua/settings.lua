@@ -17,4 +17,4 @@ opt.tabstop = 2 -- cantidad de tabs que doy o salto 2 espacios
 opt.shiftwidth = 2 -- este este el espacio que utiliza nvim para identar una línea
 opt.encoding="utf-8" -- esto establece la codigicación de los carácteres a UTF-8
 opt.cursorline = true -- esto me muestra una linea opaca atras de donde estoy escribiendo para saber donde se encuentra ubicado el puntero 
-vim.opt.clipboard = "unnamedplus" -- esto me permite tener acceso a el portapapeles de nvim y también del sistema
+opt.clipboard = "unnamedplus" -- esto me permite tener acceso a el portapapeles de nvim y también del sistema
