@@ -1,6 +1,7 @@
 -- Some servers have issues with backup files, see #649
 vim.opt.backup = false
 vim.opt.writebackup = false
+vim.g.coc_global_extensions = {'coc-json', 'coc-git', 'coc-prettier', 'coc-emmet', 'coc-tsserver', 'coc-css', 'coc-angular'} -- Instalar automaticamente los plugins
 
 -- Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
 -- delays and poor user experience
