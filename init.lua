@@ -1,20 +1,4 @@
 -- Archivo de configuración básico
-require('settings')
-require('keymaps')
-
--- Plugins
-require('plugins/packer')
---require('plugins/ayu')
-require('plugins/onedark')
-require('plugins/nvim-tree')
-require('plugins/lualine')
-require('plugins/telescope')
-require('plugins/autopairs')
-require('plugins/coc')
-require('plugins/treesitter')
-require('plugins/indent-blankline')
-require('plugins/gitsigns')
-require('plugins/floaterm')
-require('plugins/bufferline')
-require('plugins/kommentary')
-require('plugins/harpoon')
+require('ctrljean.packer')
+require('ctrljean.settings')
+require('ctrljean.keymaps')
