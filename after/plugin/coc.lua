@@ -1,7 +1,7 @@
 -- Some servers have issues with backup files, see #649
 vim.opt.backup = false
 vim.opt.writebackup = false
-vim.g.coc_global_extensions = {'coc-json', 'coc-prettier', 'coc-emmet', 'coc-tsserver', 'coc-css', 'coc-angular'} -- Instalar automaticamente los plugins
+vim.g.coc_global_extensions = {'coc-json', 'coc-prettier', 'coc-emmet', 'coc-tsserver', 'coc-css', 'coc-angular', 'coc-snippets'} -- Instalar automaticamente los plugins
 vim.g.coc_node_path = '/home/ctrljean/.nvm/versions/node/v14.21.2/bin/node'
 
 -- Having longer updatetime (default is 4000 ms = 4s) leads to noticeable
