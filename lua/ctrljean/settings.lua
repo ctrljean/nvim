@@ -18,3 +18,5 @@ opt.shiftwidth = 2 -- este este el espacio que utiliza nvim para identar una lí
 opt.encoding="utf-8" -- esto establece la codigicación de los carácteres a UTF-8
 opt.cursorline = true -- esto me muestra una linea opaca atras de donde estoy escribiendo para saber donde se encuentra ubicado el puntero 
 opt.clipboard = "unnamedplus" -- esto me permite tener acceso a el portapapeles de nvim y también del sistema
+opt.backup = false
+opt.swapfile = false
