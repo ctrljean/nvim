@@ -10,7 +10,6 @@ require'nvim-treesitter.configs'.setup {
 	ensure_installed = {
 		'c',
 		'vim',
-		'help',
 		'javascript',
     'typescript',
 		'html',
